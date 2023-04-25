@@ -17,12 +17,55 @@
     <iframe src="https://collegemont-royal.github.io/" height="1000px" width="100%" frameborder="0"></iframe>
 
 
+    <div class="carre">
+        <h1>allo</h1>
 
+    </div>
+    <div class="carre2">
 
+        allo
+    </div>
 </body>
 
 
+<style>.carre{height: 100px;
+position: relative;
+    width: 100px;
+    background-color: red;
+animation-name: devien-vert;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+display: flex;
+justify-content: center;
+}
 
+.carre:hover{animation-name: devien-vert;
+animation-duration: 0.15550000s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes devien-vert{
+    0% {border-radius: 0px}
+        
+0% {background-color: rgb(2, 43, 15);}
+50% {background-color: green;}
+100%{background-color: yellow;}
+100% { border-radius: 50px;}
+}
+
+.carre2{
+    transition: all;
+    background-color: aqua;
+}
+.carre2:hover{
+    border-radius: 50px;
+}
+
+
+
+    </style>
 
 
 
